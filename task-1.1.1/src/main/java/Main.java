@@ -11,8 +11,8 @@ public class Main {
         System.out.print("Введите значение переменной b: ");
         int b = scanner.nextInt();
 
-        System.out.println("Переменная a: " + a);
-        System.out.println("Переменная b: " + b);
+        System.out.println("Переменная a равна: " + a);
+        System.out.println("Переменная b равна: " + b);
 
         System.out.println("\n" + "Меняю переменные местами..." + "\n");
 
