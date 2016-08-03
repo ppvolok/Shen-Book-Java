@@ -1,9 +1,8 @@
-import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws InterruptedException {
 
         Scanner scanner = new Scanner(System.in);
 
@@ -14,9 +13,10 @@ public class Main {
 
         System.out.println("Переменная a: " + a);
         System.out.println("Переменная b: " + b);
-        System.out.println("\n" + "Нажмите любую клавишу, чтобы поменять переменные местами.");
 
-        int read = System.in.read();
+        System.out.println("\n" + "Меняю переменные местами..." + "\n");
+
+        Thread.sleep(1000);
 
         int temp = a;
         a = b;
