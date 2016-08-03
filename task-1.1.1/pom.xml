@@ -11,5 +11,9 @@
 
     <artifactId>task-1.1.1</artifactId>
 
+    <build>
+        <finalName>task-1.1.1-VariableChanger</finalName>
+    </build>
+
 
 </project>
