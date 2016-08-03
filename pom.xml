@@ -7,6 +7,11 @@
     <groupId>ru.pvolok</groupId>
     <artifactId>Shen-Book-Java</artifactId>
     <version>0.1.0</version>
+    <!-- Код с решениями задач представлен в виде отдельных модулей проекта, каждый из которых будет представлять собой
+    законченную консольную программу, которая при сборке попадет в директорию out в корне проекта. -->
+    <modules>
+        <module>task-1.1.1</module>
+    </modules>
     <packaging>pom</packaging>
 
     <build>
