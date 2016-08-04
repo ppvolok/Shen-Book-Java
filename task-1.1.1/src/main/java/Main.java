@@ -31,9 +31,9 @@ public class Main {
     private static int[] variableChanger(int[] someArray) {
 
         // Проверка на длину.
-        if (someArray.length != 2) {
-            return null;
-        }
+//        if (someArray.length != 2) {
+//            return null;
+//        }
 
         // Доополнитльные пересенные введены для наглядности.
         int a = someArray[0];
