@@ -9,10 +9,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>task-1.1.1</artifactId>
+    <artifactId>task-1.1.2</artifactId>
 
     <build>
-        <finalName>1.1.1-VariableChanger</finalName>
+        <finalName>1.1.2-NumberVariableChanger</finalName>
     </build>
 
 
