@@ -29,7 +29,7 @@ public class Main {
     // Функция принимает массив целых чисел и меняет местами первые два элемента.
     private static int[] variableChanger(int[] someArray) {
 
-        // Дополнитльные переменные введены для наглядности.
+        // Дополнительные переменные введены для наглядности.
         int a = someArray[0];
         int b = someArray[1];
         int temp;
