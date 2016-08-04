@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException {
 
-        // Создаем новый Scanner для получения ввода пользоватепля
+        // Создаем новый Scanner для получения ввода пользователя.
         Scanner scanner = new Scanner(System.in);
 
         // Создаем массив для значений введенных пользователем.

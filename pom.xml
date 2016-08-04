@@ -12,6 +12,7 @@
     <modules>
         <module>task-1.1.1</module>
         <module>task-1.1.2</module>
+        <module>task-1.1.3</module>
     </modules>
     <packaging>pom</packaging>
 
