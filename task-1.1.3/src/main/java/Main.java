@@ -4,16 +4,31 @@ public class Main {
 
     public static void main(String[] args) {
 
-        // Создаем новый Scanner для получения ввода пользователя.
-        Scanner scanner = new Scanner(System.in);
+        if (args.length == 2) {
 
-        System.out.print("Введите число возводимое в степень (целое а): ");
-        long a = scanner.nextInt();
-        System.out.print("Введите значение степени (целое неотрицательное n): ");
-        long n = scanner.nextInt();
+            long a = Long.parseLong(args[0]);
+            long n = Long.parseLong(args[1]);
+            System.out.println("Результат вычисления: " + power(a, n));
 
-        // Вывод сообщения и результата.
-        System.out.println("\n" + "Результат вычисления: " + power(a, n));
+        } else if (args.length == 0) {
+
+            // Создаем новый Scanner для получения ввода пользователя.
+            Scanner scanner = new Scanner(System.in);
+
+            System.out.print("Введите число возводимое в степень (целое а): ");
+            long a = scanner.nextInt();
+            System.out.print("Введите значение степени (целое неотрицательное n): ");
+            long n = scanner.nextInt();
+
+            // Вывод сообщения и результата.
+            System.out.println("\n" + "Результат вычисления: " + power(a, n));
+
+        } else {
+
+            System.out.println("Аргументы указаны неверно!");
+            System.out.println("Правильный формат: \"Имя_приложения\" \"число a\" \"число n\"");
+
+        }
 
     }
 
