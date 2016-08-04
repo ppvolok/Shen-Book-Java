@@ -26,7 +26,7 @@ public class Main {
         } else {
 
             System.out.println("Аргументы указаны неверно!");
-            System.out.println("Правильный формат: \"Имя_приложения число_a число_n\"");
+            System.out.println("Правильный формат: \"имя_приложения число_a число_n\"");
 
         }
 
