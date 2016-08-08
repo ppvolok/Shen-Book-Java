@@ -8,7 +8,7 @@ public class Main {
 
             long a = Long.parseLong(args[0]);
             long n = Long.parseLong(args[1]);
-            System.out.println("Результат вычисления: " + power(a, n));
+            System.out.println("Результат вычисления: " + pow(a, n));
 
         } else if (args.length == 0) {
 
@@ -21,7 +21,7 @@ public class Main {
             long n = scanner.nextInt();
 
             // Вывод сообщения и результата.
-            System.out.println("\n" + "Результат вычисления: " + power(a, n));
+            System.out.println("\n" + "Результат вычисления: " + pow(a, n));
 
         } else {
 
@@ -33,7 +33,7 @@ public class Main {
     }
 
     // Функция возведения в степень. Принимает возводимое в степень число a и значение степени n.
-    private static long power(long a, long n) {
+    private static long pow(long a, long n) {
 
         // Переменная b сохраняет результат (как промежуточный, так и конечный). Начальное значение равно 1, так как
         // любое число в нулевой степени равно единице.
