@@ -27,7 +27,6 @@ public class Main {
 
     }
 
-
     // Функция получает два целых числа и возвращает их произведение.
     private static int multiplier(int a, int b) {
 
